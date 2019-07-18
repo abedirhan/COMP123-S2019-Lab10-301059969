@@ -62,7 +62,7 @@
             this.CloseButton.TabIndex = 2;
             this.CloseButton.Text = "Close Button";
             this.CloseButton.UseVisualStyleBackColor = true;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
             // 
             // button1
             // 
@@ -101,6 +101,8 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Form";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -40,10 +40,10 @@ namespace COMP123_S2019_Lab10_301059969
 //            Program.startForm.Hide();
         }
 
-        //        private void NextButton_Click(object sender, EventArgs e)
-        //        {
-        //            Program.Forms[FormName.MAIN_FORM].Show();
-        //            this.Hide();
-        //        }
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            Program.Forms[FormName.MAIN_FORM].Show();
+            this.Hide();
+        }
     }
 }

@@ -31,11 +31,12 @@
             this.BackButton = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
             this.BackEndButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(225, 227);
+            this.BackButton.Location = new System.Drawing.Point(275, 230);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(183, 47);
             this.BackButton.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // CloseButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(225, 280);
+            this.CloseButton.Location = new System.Drawing.Point(275, 306);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(183, 47);
             this.CloseButton.TabIndex = 3;
@@ -63,6 +64,15 @@
             this.BackEndButton.UseVisualStyleBackColor = true;
             this.BackEndButton.Click += new System.EventHandler(this.BackEndButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(246, 182);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(251, 31);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Here End Of Form:)";
+            // 
             // EndForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
@@ -70,6 +80,7 @@
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BackEndButton);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.BackButton);
@@ -82,6 +93,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "End Form";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -90,5 +102,6 @@
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Button BackEndButton;
+        private System.Windows.Forms.Label label1;
     }
 }

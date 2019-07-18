@@ -12,7 +12,7 @@ namespace COMP123_S2019_Lab10_301059969
 {
     public partial class EndForm : Form
     {
-        public Form Parent { get; set; }
+       // public Form Parent { get; set; }
         public EndForm()
         {
             InitializeComponent();
